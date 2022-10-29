@@ -5,13 +5,12 @@
   background-color: grey;
   height: 150px;
 }
-
 .logobox {
   cursor: pointer;
   position: relative;
   display: inline-block;
   font-size: 3rem;
-  background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
+  background: linear-gradient(to bottom, #000, #000 55%, #fff 55%, #fff 800%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -23,9 +22,9 @@
   position: relative;
   display: flex;
   justify-content: center;
-  width: 400px;
-  line-height: 62px;
-  margin: 40px 20px;
+  width: 450px;
+  line-height: 110px;
+  margin: 20px 20px;
 }
 
 .logodiv:before {
@@ -40,11 +39,11 @@
 }
 
 .logobox:hover {
-  background-position: 0 11px;
+  background-position: 0 20px;
 }
 
 .logodiv:hover:before {
-  transform: translateY(10px)
+  transform: translateY(20px)
 }
 .logo {
   width: 200px;

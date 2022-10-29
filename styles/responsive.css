@@ -1,5 +1,4 @@
-@media (max-width: 860px) {
- 
+@media (max-width: 1200px) {
   .navigation {
     display: none;
   }
@@ -35,7 +34,7 @@
     height: 40px;
     cursor: pointer;
     z-index: 100;
-    display: none;  
+    display: none;
   }
   .line {
     width: 100%;
