@@ -8,7 +8,7 @@
   .navigation-wrapper {
     flex-direction: column;
   }
-  #nav-ul {
+  .nav-ul {
     flex-direction: column;
     align-items: center;
   }
@@ -20,26 +20,27 @@
     width: 100%;
     height: 100vh;
     background-color: grey;
-    line-height: 60px;
-    align-items: center;
+    z-index: 100;
+  }
+  .nav-li{
     font-size: 40px;
+    line-height: 70px;
   }
   .toggle-menu {
     position: fixed;
     top: 50px;
     right: 20px;
-    color: red;
     font-size: 20px;
     width: 40px;
     height: 40px;
     cursor: pointer;
-    z-index: 100;
     display: none;
+    z-index: 100;
   }
   .line {
     width: 100%;
     height: 3px;
-    background-color: red;
+    background-color: #9e2929;
     position: absolute;
     top: 50%;
     left: 50%;

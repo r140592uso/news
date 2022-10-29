@@ -2,17 +2,19 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  align-items: center;
   background-color: grey;
-  height: 400px;  
+}
+.logosliderdiv {
+  display: flex;
+  justify-content: space-around;
 }
 .logodiv {
   position: relative;
-  display: flex;
-  justify-content: center;
-  width: 450px;
-  line-height: 110px;
-  margin: 20px 20px;
+  width: 210px;
+  height: 100px;
+  line-height: 100px;
+  margin: 0px 20px 20px 0;
+  /* background-color: #00f8ef; */
 }
 .logodiv:before {
   content: "";
@@ -25,14 +27,20 @@
   transition: all 0.2s ease-out;
 }
 .logodiv:hover:before {
-  transform: translateY(20px)
+  transform: translateY(25px);
 }
 .logobox {
   cursor: pointer;
   position: relative;
   display: inline-block;
   font-size: 3rem;
-  background: linear-gradient(to bottom, #170359, #170359 55%, #9e2929 55%, #9e2929 800%);
+  background: linear-gradient(
+    to bottom,
+    #170359,
+    #170359 55%,
+    #9e2929 55%,
+    #9e2929 800%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -41,24 +49,23 @@
   white-space: nowrap;
 }
 .logobox:hover {
-  background-position: 0 20px;
+  background-position: 0 25px;
 }
-.logo {
-  width: 200px;
-}
-.navtogglediv{
+.navtogglediv {
   display: flex;
+  justify-content: space-between;
 }
 .navigation {
   display: flex;
-  max-width: 1200px;
-  width: 70%;
+  max-width: 3000px;
+  width: 100%;
+  margin: 0 auto;
 }
 .nav-ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 1100px;
+  max-width: 1600px;
   width: 100%;
   margin: 0 auto;
   text-transform: uppercase;
@@ -71,7 +78,37 @@
   color: #fff;
   font-weight: 700;
   font-size: 20px;
-  line-height: 62px;
+  line-height: 30px;
   /* background-color: aqua; */
+}
+.search {
+  max-width: 200px;
+  width: 100%;
+  /* background-color: aqua; */
+  position: fixed;
+  top: 105px;
+  right: 20px;
+  z-index: 50;
+}
 
+
+
+
+/* testtest */
+
+
+.content{
+  height: 2000px;
+}
+
+/* foooter */
+
+.slider {
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
+  width: 100%;
+  height: 480px;
+  background-color: aqua;
+  margin: 20px 20px;
 }
