@@ -1,22 +1,10 @@
 .navigation-wrapper {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   background-color: grey;
-  height: 150px;
-}
-.logobox {
-  cursor: pointer;
-  position: relative;
-  display: inline-block;
-  font-size: 3rem;
-  background: linear-gradient(to bottom, #193bb5, #193bb5 55%, #9e2929 55%, #9e2929 800%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-repeat: no-repeat;
-  transition: background 0.2s ease-out;
-  white-space: nowrap;
+  height: 400px;  
 }
 .logodiv {
   position: relative;
@@ -26,27 +14,40 @@
   line-height: 110px;
   margin: 20px 20px;
 }
-
 .logodiv:before {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
   height: 15px;
-  background: #193bb5;
+  background: #170359;
   bottom: 9px;
   transition: all 0.2s ease-out;
 }
-
-.logobox:hover {
-  background-position: 0 20px;
-}
-
 .logodiv:hover:before {
   transform: translateY(20px)
 }
+.logobox {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  font-size: 3rem;
+  background: linear-gradient(to bottom, #170359, #170359 55%, #9e2929 55%, #9e2929 800%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  transition: background 0.2s ease-out;
+  white-space: nowrap;
+}
+.logobox:hover {
+  background-position: 0 20px;
+}
 .logo {
   width: 200px;
+}
+.navtogglediv{
+  display: flex;
 }
 .navigation {
   display: flex;
