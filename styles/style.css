@@ -10,7 +10,7 @@
   position: relative;
   display: inline-block;
   font-size: 3rem;
-  background: linear-gradient(to bottom, #000, #000 55%, #fff 55%, #fff 800%);
+  background: linear-gradient(to bottom, #193bb5, #193bb5 55%, #9e2929 55%, #9e2929 800%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -33,7 +33,7 @@
   left: 0;
   right: 0;
   height: 15px;
-  background: #000;
+  background: #193bb5;
   bottom: 9px;
   transition: all 0.2s ease-out;
 }
