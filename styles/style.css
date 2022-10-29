@@ -1,0 +1,77 @@
+.navigation-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  height: 150px;
+}
+
+.logobox {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  font-size: 3rem;
+  background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  transition: background 0.2s ease-out;
+  white-space: nowrap;
+}
+.logodiv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  line-height: 62px;
+  margin: 40px 20px;
+}
+
+.logodiv:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 15px;
+  background: #000;
+  bottom: 9px;
+  transition: all 0.2s ease-out;
+}
+
+.logobox:hover {
+  background-position: 0 11px;
+}
+
+.logodiv:hover:before {
+  transform: translateY(10px)
+}
+.logo {
+  width: 200px;
+}
+.navigation {
+  display: flex;
+  max-width: 1200px;
+  width: 70%;
+}
+.nav-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+}
+.nav-li {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 62px;
+  /* background-color: aqua; */
+
+}
