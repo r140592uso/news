@@ -25,11 +25,18 @@
   .nav-li{
     font-size: 40px;
     line-height: 70px;
+    max-width: 500px;
+    width: 100%;
   }
+  .nav-li:last-child{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }  
   .toggle-menu {
     position: fixed;
-    top: 50px;
-    right: 20px;
+    top: 10px;
+    right: 10px;
     font-size: 20px;
     width: 40px;
     height: 40px;

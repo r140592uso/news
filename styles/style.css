@@ -6,15 +6,19 @@
 }
 .logosliderdiv {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  margin: 30px;
 }
+
+/* logo animation */
 .logodiv {
   position: relative;
+  justify-content: center;
+  align-content: center;
   width: 210px;
   height: 100px;
-  line-height: 100px;
-  margin: 0px 20px 20px 0;
-  /* background-color: #00f8ef; */
+  line-height: 95px;
+  margin: auto 20px;
 }
 .logodiv:before {
   content: "";
@@ -51,64 +55,70 @@
 .logobox:hover {
   background-position: 0 25px;
 }
+/*  */
+
 .navtogglediv {
   display: flex;
   justify-content: space-between;
+  background-color: grey;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
+  width: 100%;
+  height: 210px;
+  background-color: aqua;
+  margin: 20px 20px;
 }
 .navigation {
   display: flex;
   max-width: 3000px;
   width: 100%;
   margin: 0 auto;
+
 }
 .nav-ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 1600px;
+  max-width: 2000px;
   width: 100%;
   margin: 0 auto;
   text-transform: uppercase;
   text-align: center;
+  background-color: grey;
 }
 .nav-li {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   color: #fff;
-  font-weight: 700;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 30px;
-  /* background-color: aqua; */
+  max-width: 150px;
+  width: 10%;
 }
-.search {
-  max-width: 200px;
-  width: 100%;
-  /* background-color: aqua; */
+.search-item {
+  max-width: 400px;
+  width: 80%;
+}
+
+/* sticky navbar */
+.sticky {
   position: fixed;
-  top: 105px;
-  right: 20px;
-  z-index: 50;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
 }
 
-
-
+/* sections */
 
 /* testtest */
-
-
 .content{
   height: 2000px;
+  padding: 16px;
 }
-
 /* foooter */
-
-.slider {
-  display: flex;
-  justify-content: center;
-  max-width: 1400px;
-  width: 100%;
-  height: 480px;
-  background-color: aqua;
-  margin: 20px 20px;
-}
