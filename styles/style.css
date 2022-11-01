@@ -76,7 +76,6 @@
   max-width: 3000px;
   width: 100%;
   margin: 0 auto;
-
 }
 .nav-ul {
   display: flex;
@@ -101,10 +100,10 @@
   margin: 1px;
   padding: 1px;
 }
-.nav-li:not(:last-child){
+.nav-li:not(:last-child) {
   box-shadow: 3px -3px 3px -3px #9e2929;
 }
-.fa-magnifying-glass{
+.fa-magnifying-glass {
   margin-right: 20px;
 }
 .search-input {
@@ -123,10 +122,10 @@
 }
 
 /* sections */
-
-/* testtest */
-.content{
+.content {
   height: 2000px;
   padding: 16px;
 }
+
+/* ajax */
 /* foooter */
