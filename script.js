@@ -26,7 +26,7 @@ function myFunction() {
 }
 
 // articles
-fetch("./articles.json")
+fetch("articles.json")
   .then((res) => {
     return res.json();
   })
