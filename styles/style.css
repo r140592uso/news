@@ -126,6 +126,18 @@
   height: 2000px;
   padding: 16px;
 }
+.newsli{
+  display: flex;
+  max-width: 2000px;
+  width: 80%;
+  margin: 20px auto;
+  background-color: #170359;
+  height: 350px;
 
+}
+.newstitle{
+  color: #fff;
+
+}
 /* ajax */
 /* foooter */

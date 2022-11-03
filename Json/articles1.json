@@ -1,0 +1,54 @@
+{
+  "articles": [
+    {
+      "source": { "id": "the-verge", "name": "The Verge" },
+      "author": "Emma Roth",
+      "title": "Apple’s 14- and 16-inch MacBook Pros might not arrive until next March",
+      "description": "The M2-equipped 14- and 16-inch MacBook Pros may launch in the first half of March 2023, according to a report from Bloomberg’s Mark Gurman.",
+      "url": "https://www.theverge.com/2022/10/30/23430949/apple-new-macbook-pro-14-16-arrive-next-march-rumors-m2",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/3JS4dYNRnpRqBnHguzW6pN5wufA=/0x0:2040x1360/1200x628/filters:focal(1006x731:1007x732)/cdn.vox-cdn.com/uploads/chorus_asset/file/22948092/akrales_211020_4803_0201.jpg",
+      "publishedAt": "2022-10-30T14:43:31Z",
+      "content": "Apples 14- and 16-inch MacBook Pros might not arrive until next March\r\nApples 14- and 16-inch MacBook Pros might not arrive until next March\r\n / We probably wont see the upgraded MacBook Pros this ye… [+1894 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "https://www.facebook.com/bbcnews",
+      "title": "Apple: Chinese workers flee Covid lockdown at iPhone factory",
+      "description": "Video shared online shows people jumping a fence to escape the plant, owned by Foxconn, in Zhengzhou.",
+      "url": "https://www.bbc.co.uk/news/world-asia-china-63447755",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/819E/production/_127428133_guardsprotectingfoxconn.jpg",
+      "publishedAt": "2022-10-30T16:35:09Z",
+      "content": "Workers have broken out of Apple's largest iPhone assembly factory in China after a Covid outbreak forced staff to lockdown at the workplace.\r\nVideo shared online showed about 10 people jumping a fen… [+2678 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Android Central" },
+      "author": "techkritiko@gmail.com (Jay Bonggolto)",
+      "title": "Peloton app comes to Wear OS 3 smartwatches",
+      "description": "Peloton has finally rolled out its digital app to Wear OS 3 smartwatches after ignoring the platform for quite a while.",
+      "url": "https://www.androidcentral.com/wearables/peloton-app-comes-to-wear-os-3",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/VXQfjwvgJ4hpSZoEhRY6cf-1200-80.jpg",
+      "publishedAt": "2022-10-30T14:02:09Z",
+      "content": "<ul><li>The Peloton app is now available on Wear OS 3.</li><li>For the time being, the app only has a few features, such as monitoring your heart rate.</li><li>However, it falls far short of what its… [+1595 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Android Central" },
+      "author": "andrew.myrick@futurenet.com (Andrew Myrick)",
+      "title": "Why I'm done with the iPad",
+      "description": "After being a proponent and avid user of the iPad for years, the inability to provide a software experience that doesn't just feel like a \"big iPhone\" has driven a wedge between the iPad and some of its users.",
+      "url": "https://www.androidcentral.com/tablets/why-im-done-with-ipad",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/o5soFbKQhUXCF6gti2wTUc-1200-80.jpg",
+      "publishedAt": "2022-10-30T15:00:13Z",
+      "content": "Over the past few months, one could say that I've become a bit more soured on the current state of tech. On one hand, we finally got the Pixel Watch that we've been hoping for, foldable phones are st… [+6286 chars]"
+    },
+    {
+      "source": { "id": null, "name": "The Guardian" },
+      "author": "Nigel Slater",
+      "title": "Nigel Slater’s recipes for pumpkin rolls with pomegranate molasses, and baked apples with maple syrup",
+      "description": "Light up the darkest nights with these Halloween sparklersA pumpkin, its heart hollowed out for soup, a jagged smile carved into its shell, will hold a light on the garden steps, but that is as far as I go. Next week, rather than sending exploding rockets int…",
+      "url": "https://www.theguardian.com/food/2022/oct/30/nigel-slater-recipes-pumpkin-rolls-with-pomegranate-molasses-baked-apples-maple-syrup",
+      "urlToImage": "https://i.guim.co.uk/img/media/21e3e6b540082533f0874e9a7efbcd04baf1d563/0_2500_5018_3010/master/5018.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tZGVmYXVsdC5wbmc&enable=upscale&s=78d72cb4ec00efb8447dd78a1ef3379d",
+      "publishedAt": "2022-10-30T10:30:24Z",
+      "content": "A pumpkin, its heart hollowed out for soup, a jagged smile carved into its shell, will hold a light on the garden steps, but that is as far as I go. Next week, rather than sending exploding rockets i… [+5053 chars]"
+    }
+  ]
+}
