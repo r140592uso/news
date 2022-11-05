@@ -77,10 +77,23 @@
   <section>
     <div class="api" id="api">
       <div class="news" id="news"></div>
-      <button id="previous">წინა</button>
-      <button id="next">შემდეგი</button>
+      <div class="buttondiv">
+        <button class="previous buttons" id="previous">წინა</button>
+        <button class="next buttons" id="next">შემდეგი</button>
+      </div>
+      <div class="overlay" id="overlay">
+        <div class="newscontent" id="newscontent"></div>
+        <div class="close" id="close"><i class="fa-solid fa-xmark"></i></div>
+      </div>
     </div>
   </section>
+  <footer class="footerdiv">
+    <div class="tothetop">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa-solid fa-angles-up"></i></button>
+    </div>
+    
+  </footer>
   <body>
     <script src="script.js"></script>
   </body>

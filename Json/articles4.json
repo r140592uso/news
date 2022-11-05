@@ -2,7 +2,7 @@
   "total_pages": 4,
   "articles": [
   {
-    "source": { "id": null, "name": "Hackaday" },
+    "id": 1,
     "author": "Arya Voronova",
     "title": "ZIF HDDs Dying Out? Here’s An Open-Source 1.8″ SSD",
     "description": "A lot of old technology runs on parts no longer produced – HDDs happen to be one such part, with IDE drives specifically being long out of vogue, and going extinct to natural causes. There&#8…",
@@ -12,7 +12,7 @@
     "content": "A lot of old technology runs on parts no longer produced – HDDs happen to be one such part, with IDE drives specifically being long out of vogue, and going extinct to natural causes. There’s substitu… [+1637 chars]"
   },
   {
-    "source": { "id": null, "name": "Xataka.com" },
+    "id": 2,
     "author": "Enrique Pérez",
     "title": "Dos empresas controlan el dinero de todo el mundo. Es probable que nunca hayas oído hablar de ellas",
     "description": "¿Quién vigila a los vigilantes? ¿Quién controla a las empresas más poderosas del mundo? No hay una respuesta absoluta a estas preguntas, pero sí hay una explicación muy cercana. Son dos empresas, dos gigantes del mundo financiero, que se esconden detrás de to…",
@@ -22,7 +22,7 @@
     "content": "¿Quién vigila a los vigilantes? ¿Quién controla a las empresas más poderosas del mundo? No hay una respuesta absoluta a estas preguntas, pero sí hay una explicación muy cercana. Son dos empresas, dos… [+5058 chars]"
   },
   {
-    "source": { "id": null, "name": "Xataka.com" },
+    "id": 3,
     "author": "Yúbal Fernández",
     "title": "Las mejores páginas y herramientas online para detectar filtraciones y evitar que puedan hackear tus cuentas",
     "description": "Te traemos una pequeña colección de 17 páginas y herramientas online para detectar filtraciones y así evitar que puedan hackear tus cuentas porque se han filtrado tus datos de acceso. No se trata de páginas que se hayan seleccionado al azar, sino de herramien…",
@@ -32,7 +32,7 @@
     "content": "Te traemos una pequeña colección de 17 páginas y herramientas online para detectar filtraciones y así evitar que puedan hackear tus cuentas porque se han filtrado tus datos de acceso. No se trata de … [+9992 chars]"
   },
   {
-    "source": { "id": "fox-news", "name": "Fox News" },
+    "id": 4,
     "author": "The Kim Komando Show",
     "title": "5 iPhone security settings you need to change now",
     "description": "Default settings are often much better for the companies behind them than for you; make these 5 quick changes in order to keep yourself safe.",
@@ -42,7 +42,7 @@
     "content": "Your phone doesn't come with a user manual. Sure, you can find online guides from Apple or Android, but don't bet on Big Tech telling you the secrets to best protect yourself.\r\nDefault settings are o… [+7152 chars]"
   },
   {
-    "source": { "id": null, "name": "Bytecellar.com" },
+    "id": 5,
     "author": "Blake Patterson",
     "title": "Tale told on IRC: Mystery of Apple II app sourcecode loss solved in eWaste find",
     "description": "I’ve been an active IRC users for nearly 25 years now, and for many of those years I was a denizen of the #a2c.chat channel on the irc.a2central.com IRC server. That’s where I met Tony Diaz. Long a key figure … Continue reading →",

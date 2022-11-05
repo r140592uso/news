@@ -126,15 +126,15 @@
   height: 2000px;
   padding: 16px;
 }
-.newsdiv{
+.newsdiv {
   display: flex;
   max-width: 2000px;
   width: 100%;
-  margin: 20px auto;
+  margin: 20px auto 200px auto;
   height: 350px;
 }
 
-.newsimg{
+.newsimg {
   max-width: 1200px;
   width: 100%;
   height: 350px;
@@ -142,7 +142,7 @@
   background-position: center;
   margin: 20px;
 }
-.textdiv{
+.textdiv {
   max-width: 800px;
   width: 100%;
   display: flex;
@@ -151,21 +151,81 @@
   text-align: center;
   margin: 20px;
 }
-.newstitle{
+.newstitle {
   display: flex;
   justify-content: center;
   text-align: center;
   font-size: 30px;
   margin: 30px;
 }
-.newsdesc{
+.newsdesc {
   display: flex;
   justify-content: center;
   text-align: center;
   margin: 10px;
-
 }
-.newstext{
+.newstext {
   font-size: 15px;
   margin: 0 30px;
+}
+.buttondiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  bottom: 70px;
+  right: 0;
+  left: 0;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #8a8489;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 100px;
+  color: #9e2929;
+  max-width: 100px;
+  width: 100%;
+  height: 50px;
+}
+.footerdiv {
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #8a8489;
+}
+.tothetop {
+  display: flex;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  justify-content: end;
+  font-size: 60px;
+  color: greenyellow;
+}
+.overlay {
+  position: fixed;
+  top: 320px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #8a8489;
+  display: none;
+}
+.overlay.activeoverlay {
+  display: block;
+}
+.close {
+  position: absolute;
+  top: 420px;
+  right: 20px;
+  color: #9e2929;
 }

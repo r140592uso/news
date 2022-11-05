@@ -2,7 +2,7 @@
   "total_pages": 4,
   "articles": [
     {
-      "source": { "id": null, "name": "MacRumors" },
+      "id": 1,
       "author": "Sami Fathi",
       "title": "Rumor: New 14-Inch and 16-Inch MacBook Pros Delayed Until Next Year",
       "description": "Contrary to rumors that Apple will announce new 14-inch and 16-inch MacBook Pros powered with the yet to be announced M2 Pro and ‌M2‌ Max chips in November, a new rumor has suggested Apple will instead release the new laptops next year.\n\n\n\n\n\nAccording to a po…",
@@ -12,7 +12,7 @@
       "content": "Contrary to rumors that Apple will announce new 14-inch and 16-inch MacBook Pros powered with the yet to be announced M2 Pro and ‌M2‌ Max chips in November, a new rumor has suggested Apple will inste… [+1147 chars]"
     },
     {
-      "source": { "id": null, "name": "Slashdot.org" },
+      "id": 2,
       "author": "EditorDavid",
       "title": "Europe's Telecoms Want High-Traffic Companies Like Netflix to Fund Infrastructure Upgrades",
       "description": "\"Faced with a squeeze on profits and dwindling share prices, internet service providers are seeking ways of making additional income,\" reports CNBC. \n\nOne example? \"Telecom groups are pushing European regulators to consider implementing a framework where the …",
@@ -22,7 +22,7 @@
       "content": "\"Faced with a squeeze on profits and dwindling share prices, internet service providers are seeking ways of making additional income,\" reports CNBC.One example? \"Telecom groups are pushing European r… [+2068 chars]"
     },
     {
-      "source": { "id": null, "name": "Boing Boing" },
+      "id": 3,
       "author": "Boing Boing's Shop",
       "title": "Charge four devices at once with one docking station, now just $57",
       "description": "We thank our sponsor for making this content possible; it is not written by the editorial staff nor does it necessarily reflect its views.\n\n\n\nHaving more devices is a plus, right? Well. except when it comes to charging them. Then, you're tripping over cables …",
@@ -32,7 +32,7 @@
       "content": "We thank our sponsor for making this content possible; it is not written by the editorial staff nor does it necessarily reflect its views.\r\nHaving more devices is a plus, right? Well. except when it … [+1749 chars]"
     },
     {
-      "source": { "id": null, "name": "Hipertextual" },
+      "id": 4,
       "author": "Víctor Millán",
       "title": "Apple lleva trazando su plan para la Realidad Aumentada más de un lustro: es el gran proyecto de Tim Cook",
       "description": "Cook lleva hablando del potencial de la Realidad Aumentada al menos desde 2016. La futurible llegada de las gafas de Apple pueden abrir un nuevo escenario.",
@@ -42,7 +42,7 @@
       "content": "Llevamos ya mucho tiempo escuchando rumores sobre las ya presupuestas como seguras gafas de Apple. Un dispositivo que podría llegar en los próximos años y que, a buen seguro, serán el primer gran ate… [+4541 chars]"
     },
     {
-      "source": { "id": null, "name": "Hipertextual" },
+      "id": 4,
       "author": "Gabriel Erard",
       "title": "¿Están las grandes tecnológicas en problemas por la crisis económica global?",
       "description": "El 2022 ha demostrado ser un año bastante peculiar para las grandes tecnológicas. En el que existía gran interés por ver cómo reaccionarían las principales compañías del sector ante el regreso a la normalidad de casi todo el mundo tras la COVID-19. Pero ya si…",

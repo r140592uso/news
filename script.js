@@ -82,7 +82,6 @@ function getNews(page) {
       document.getElementById("api").appendChild(p);
     });
 }
-
 document.getElementById("previous").addEventListener("click", function () {
   if (currentPage == 1) {
     return;

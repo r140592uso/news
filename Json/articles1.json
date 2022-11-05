@@ -2,7 +2,7 @@
   "total_pages": 4,
   "articles": [
     {
-      "source": { "id": "the-verge", "name": "The Verge" },
+      "id": 1,
       "author": "Emma Roth",
       "title": "Apple’s 14- and 16-inch MacBook Pros might not arrive until next March",
       "description": "The M2-equipped 14- and 16-inch MacBook Pros may launch in the first half of March 2023, according to a report from Bloomberg’s Mark Gurman.",
@@ -12,7 +12,7 @@
       "content": "Apples 14- and 16-inch MacBook Pros might not arrive until next March\r\nApples 14- and 16-inch MacBook Pros might not arrive until next March\r\n / We probably wont see the upgraded MacBook Pros this ye… [+1894 chars]"
     },
     {
-      "source": { "id": "bbc-news", "name": "BBC News" },
+      "id": 2,
       "author": "https://www.facebook.com/bbcnews",
       "title": "Apple: Chinese workers flee Covid lockdown at iPhone factory",
       "description": "Video shared online shows people jumping a fence to escape the plant, owned by Foxconn, in Zhengzhou.",
@@ -22,7 +22,7 @@
       "content": "Workers have broken out of Apple's largest iPhone assembly factory in China after a Covid outbreak forced staff to lockdown at the workplace.\r\nVideo shared online showed about 10 people jumping a fen… [+2678 chars]"
     },
     {
-      "source": { "id": null, "name": "Android Central" },
+      "id": 3,
       "author": "techkritiko@gmail.com (Jay Bonggolto)",
       "title": "Peloton app comes to Wear OS 3 smartwatches",
       "description": "Peloton has finally rolled out its digital app to Wear OS 3 smartwatches after ignoring the platform for quite a while.",
@@ -32,7 +32,7 @@
       "content": "<ul><li>The Peloton app is now available on Wear OS 3.</li><li>For the time being, the app only has a few features, such as monitoring your heart rate.</li><li>However, it falls far short of what its… [+1595 chars]"
     },
     {
-      "source": { "id": null, "name": "Android Central" },
+      "id": 4,
       "author": "andrew.myrick@futurenet.com (Andrew Myrick)",
       "title": "Why I'm done with the iPad",
       "description": "After being a proponent and avid user of the iPad for years, the inability to provide a software experience that doesn't just feel like a \"big iPhone\" has driven a wedge between the iPad and some of its users.",
@@ -42,7 +42,7 @@
       "content": "Over the past few months, one could say that I've become a bit more soured on the current state of tech. On one hand, we finally got the Pixel Watch that we've been hoping for, foldable phones are st… [+6286 chars]"
     },
     {
-      "source": { "id": null, "name": "The Guardian" },
+      "id": 5,
       "author": "Nigel Slater",
       "title": "Nigel Slater’s recipes for pumpkin rolls with pomegranate molasses, and baked apples with maple syrup",
       "description": "Light up the darkest nights with these Halloween sparklersA pumpkin, its heart hollowed out for soup, a jagged smile carved into its shell, will hold a light on the garden steps, but that is as far as I go. Next week, rather than sending exploding rockets int…",
