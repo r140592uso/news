@@ -25,11 +25,12 @@ function myFunction() {
   }
 }
 
-// fetch("Json/articles1.json", {
-//   method: "GET",
-// })
 // articles
 let currentPage = 1;
+let newsOverlay = document.getElementById("overlay");
+let newsContent = document.getElementById("newscontent");
+let newsClose = document.getElementById("close");
+
 function getNews(page) {
   fetch("Json/articles" + page + ".json", {
     method: "GET",
@@ -42,34 +43,38 @@ function getNews(page) {
     })
     .then(function (responseData) {
       const fragment = document.createDocumentFragment();
-
       responseData.articles.forEach((element) => {
         let divnews = document.createElement("div");
+        divnews.classList.add("newsdiv");
         let divimg = document.createElement("div");
+        divimg.classList.add("newsimg");
         let divtext = document.createElement("div");
+        divtext.classList.add("textdiv");
         let h3 = document.createElement("h3");
+        h3.classList.add("newstitle");
         let h4 = document.createElement("h4");
+        h4.classList.add("newsdesc");
         let p = document.createElement("p");
+        p.classList.add("newstext");
 
         divimg.style.backgroundImage = `url(${element.urlToImage})`;
-
         h3.textContent = `${element.title}`;
         h4.textContent = `${element.description}`;
         p.textContent = `${element.content}`;
+        divnews.setAttribute("data-id", element.id);
 
-        divimg.classList.add("newsimg");
-        divtext.classList.add("textdiv");
-        divnews.classList.add("newsdiv");
-        h3.classList.add("newstitle");
-        h4.classList.add("newsdesc");
-        p.classList.add("newstext");
-
+        divnews.appendChild(divimg);
+        divnews.appendChild(divtext);
         divtext.appendChild(h3);
         divtext.appendChild(h4);
         divtext.appendChild(p);
-        divnews.appendChild(divimg);
-        divnews.appendChild(divtext);
         fragment.appendChild(divnews);
+
+        divnews.addEventListener("click", function (event) {
+          let id = event.target.getAttribute("data-id");
+          newsOverlay.classList.add("activeoverlay");
+          console.log(id);
+        });
       });
       document.getElementById("news").innerHTML = " ";
       document.getElementById("news").appendChild(fragment);
