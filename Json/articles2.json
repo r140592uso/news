@@ -1,0 +1,55 @@
+{
+  "total_pages": 4,
+  "articles": [
+    {
+      "source": { "id": null, "name": "The Guardian" },
+      "author": "Reuters",
+      "title": "China braces for wave of workers fleeing iPhone factory in Covid-hit Zhengzhou",
+      "description": "Cities near to the Foxconn plant have drawn up plans to isolate migrant workers who are returning to homeCities in central China have hastily drawn up plans to isolate migrant workers fleeing to their hometowns from the world’s largest iPhone factory, amid fe…",
+      "url": "https://www.theguardian.com/technology/2022/oct/30/china-braces-for-wave-of-workers-fleeing-iphone-factory-in-covid-hit-zhengzhou",
+      "urlToImage": "https://i.guim.co.uk/img/media/c7e96a256d58266e7876c9ff02dd4a1d845d8826/0_327_5378_3229/master/5378.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c77eb4adbb7f531349bc985965801500",
+      "publishedAt": "2022-10-30T14:03:24Z",
+      "content": "Cities in central China have hastily drawn up plans to isolate migrant workers fleeing to their hometowns from the worlds largest iPhone factory, amid fears they will spread a coronavirus outbreak fr… [+3076 chars]"
+    },
+    {
+      "source": { "id": null, "name": "The Guardian" },
+      "author": "Rachel Cooke",
+      "title": "Playing Under the Piano by Hugh Bonneville – note-perfect self-deprecation",
+      "description": "The Downton star is happy to be the butt of his own jokes in this tremendously entertaining account of the ups and downs of his careerWhen he was young, the actor Hugh Bonneville was ambitious and thrusting, but a bit bumbling, too: no sooner had he filed his…",
+      "url": "https://www.theguardian.com/books/2022/oct/30/playing-under-the-piano-by-hugh-bonneville-note-perfect-self-deprecation",
+      "urlToImage": "https://i.guim.co.uk/img/media/7ba47edd1637da472157200c7c44a3c87c0b58aa/0_117_4000_2399/master/4000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tZGVmYXVsdC5wbmc&enable=upscale&s=c0eec21f76c37c2f38b6940a8b405988",
+      "publishedAt": "2022-10-30T08:30:21Z",
+      "content": "When he was young, the actor Hugh Bonneville was ambitious and thrusting, but a bit bumbling, too: no sooner had he filed his elbows to a point and aimed them in the direction of his next big break t… [+5127 chars]"
+    },
+    {
+      "source": { "id": null, "name": "The Guardian" },
+      "author": "Ha-Joon Chang",
+      "title": "From carbs to cars: how South Korea’s success shows entrepreneurship is a team game",
+      "description": "In an extract from his new book Edible Economics, the economist Ha-Joon Chang explains how his nation’s manufacturing boom busts myths about the global economy<ul><li>Ha-Joon Chang: the Tory mini-budget was like trying to bring back terrible Tex-Mex</li></ul>…",
+      "url": "https://www.theguardian.com/books/2022/oct/30/from-carbs-to-cars-how-south-koreas-success-shows-entrepreneurship-is-a-team-game-ha-joon-chang-edible-economics",
+      "urlToImage": "https://i.guim.co.uk/img/media/af7967f301aaa16446b215d168436a6e74878e7f/0_54_3000_1800/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tZGVmYXVsdC5wbmc&enable=upscale&s=42547acd39b683c4a1ee8a804ab348e5",
+      "publishedAt": "2022-10-30T10:00:24Z",
+      "content": "Consider the noodle According to the World Instant Noodles Association (yes, such a body exists), South Koreans are among the biggest consumers of instant noodles, going through 79.7 servings per per… [+6940 chars]"
+    },
+    {
+      "source": { "id": null, "name": "The Guardian" },
+      "author": "Patrick Barkham",
+      "title": "Growing together: how city farms have nurtured a generation of urban kids",
+      "description": "Patrick Barkham meets some of the early pioneers of urban farming in the UK and hears how the battles faced half a century ago are very similar to the ones being waged todayTucked in a deep cleft east of Newcastle city centre, surrounded by the monochrome of …",
+      "url": "https://www.theguardian.com/environment/2022/oct/30/city-farming-uk-50-years",
+      "urlToImage": "https://i.guim.co.uk/img/media/b1e629251bf830e2f44d8a64b2eabf7adcac84c5/0_1459_11608_6966/master/11608.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tZGVmYXVsdC5wbmc&enable=upscale&s=26147ba7a612f455cbfd3f8f98f8f320",
+      "publishedAt": "2022-10-30T11:00:25Z",
+      "content": "Tucked in a deep cleft east of Newcastle city centre, surrounded by the monochrome of the citys tarmac and concrete, housing estates and warehouses, is an explosion of natural colour rowan trees drip… [+13003 chars]"
+    },
+    {
+      "source": { "id": null, "name": "MacRumors" },
+      "author": "Sami Fathi",
+      "title": "Gurman: Apple Planning No New Mac Releases For Remainder of 2022",
+      "description": "Apple is not planning to announce any new Macs in the remainder of this year, with all planned releases expected to take place in the first quarter of 2023, including updated versions of the MacBook Pro, Mac mini, and the Mac Pro, Bloomberg's Mark Gurman said…",
+      "url": "https://www.macrumors.com/2022/10/30/gurman-no-new-macs-2022/",
+      "urlToImage": "https://images.macrumors.com/t/hRG9LHsUvpQNp5i9-JM12H97F5o=/1600x/article-new/2022/06/apple-silicon-mac-lineup-wwdc-2022.jpg",
+      "publishedAt": "2022-10-30T13:08:53Z",
+      "content": "Apple is not planning to announce any new Macs in the remainder of this year, with all planned releases expected to take place in the first quarter of 2023, including updated versions of the MacBook … [+1388 chars]"
+    }
+  ]
+}

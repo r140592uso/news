@@ -1,0 +1,55 @@
+{
+  "total_pages": 4,
+  "articles": [
+  {
+    "source": { "id": null, "name": "Hackaday" },
+    "author": "Arya Voronova",
+    "title": "ZIF HDDs Dying Out? Here’s An Open-Source 1.8″ SSD",
+    "description": "A lot of old technology runs on parts no longer produced – HDDs happen to be one such part, with IDE drives specifically being long out of vogue, and going extinct to natural causes. There&#8…",
+    "url": "https://hackaday.com/2022/10/30/zif-hdds-dying-out-heres-an-open-source-1-8-ssd/",
+    "urlToImage": "https://hackaday.com/wp-content/uploads/2022/10/hadimg_diy_zifssd_feat.png",
+    "publishedAt": "2022-10-30T20:00:58Z",
+    "content": "A lot of old technology runs on parts no longer produced – HDDs happen to be one such part, with IDE drives specifically being long out of vogue, and going extinct to natural causes. There’s substitu… [+1637 chars]"
+  },
+  {
+    "source": { "id": null, "name": "Xataka.com" },
+    "author": "Enrique Pérez",
+    "title": "Dos empresas controlan el dinero de todo el mundo. Es probable que nunca hayas oído hablar de ellas",
+    "description": "¿Quién vigila a los vigilantes? ¿Quién controla a las empresas más poderosas del mundo? No hay una respuesta absoluta a estas preguntas, pero sí hay una explicación muy cercana. Son dos empresas, dos gigantes del mundo financiero, que se esconden detrás de to…",
+    "url": "https://www.xataka.com/empresas-y-economia/dos-empresas-controlan-dinero-todo-mundo-probable-que-nunca-hayas-oido-hablar-ellas",
+    "urlToImage": "https://i.blogs.es/4e3530/blackrock-vanguard/840_560.jpg",
+    "publishedAt": "2022-10-30T18:01:59Z",
+    "content": "¿Quién vigila a los vigilantes? ¿Quién controla a las empresas más poderosas del mundo? No hay una respuesta absoluta a estas preguntas, pero sí hay una explicación muy cercana. Son dos empresas, dos… [+5058 chars]"
+  },
+  {
+    "source": { "id": null, "name": "Xataka.com" },
+    "author": "Yúbal Fernández",
+    "title": "Las mejores páginas y herramientas online para detectar filtraciones y evitar que puedan hackear tus cuentas",
+    "description": "Te traemos una pequeña colección de 17 páginas y herramientas online para detectar filtraciones y así evitar que puedan hackear tus cuentas porque se han filtrado tus datos de acceso. No se trata de páginas que se hayan seleccionado al azar, sino de herramien…",
+    "url": "https://www.xataka.com/basics/mejores-paginas-herramientas-online-para-detectar-filtraciones-evitar-que-puedan-hackear-tus-cuentas",
+    "urlToImage": "https://i.blogs.es/cbe5ae/privacidad/840_560.jpg",
+    "publishedAt": "2022-10-30T13:01:52Z",
+    "content": "Te traemos una pequeña colección de 17 páginas y herramientas online para detectar filtraciones y así evitar que puedan hackear tus cuentas porque se han filtrado tus datos de acceso. No se trata de … [+9992 chars]"
+  },
+  {
+    "source": { "id": "fox-news", "name": "Fox News" },
+    "author": "The Kim Komando Show",
+    "title": "5 iPhone security settings you need to change now",
+    "description": "Default settings are often much better for the companies behind them than for you; make these 5 quick changes in order to keep yourself safe.",
+    "url": "https://www.foxnews.com/tech/5-iphone-security-settings-need-change-now",
+    "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2022/10/GettyImages-1244103666.jpg",
+    "publishedAt": "2022-10-30T10:00:40Z",
+    "content": "Your phone doesn't come with a user manual. Sure, you can find online guides from Apple or Android, but don't bet on Big Tech telling you the secrets to best protect yourself.\r\nDefault settings are o… [+7152 chars]"
+  },
+  {
+    "source": { "id": null, "name": "Bytecellar.com" },
+    "author": "Blake Patterson",
+    "title": "Tale told on IRC: Mystery of Apple II app sourcecode loss solved in eWaste find",
+    "description": "I’ve been an active IRC users for nearly 25 years now, and for many of those years I was a denizen of the #a2c.chat channel on the irc.a2central.com IRC server. That’s where I met Tony Diaz. Long a key figure … Continue reading →",
+    "url": "https://bytecellar.com/2022/10/29/an-apple-ii-tale-told-complete-by-the-late-tony-diaz/",
+    "urlToImage": "https://bytecellar.com/wp-content/uploads/2022/10/TonyD_IRC_zoom_900w.jpg",
+    "publishedAt": "2022-10-30T14:09:45Z",
+    "content": "I’ve been an active IRC users for nearly 25 years now, and for many of those years I was a denizen of the #a2c.chatchannel on the irc.a2central.com IRC server. That’s where I met Tony Diaz. Long a ke… [+10547 chars]"
+  }
+  ]
+}

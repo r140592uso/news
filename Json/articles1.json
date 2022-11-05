@@ -1,4 +1,5 @@
 {
+  "total_pages": 4,
   "articles": [
     {
       "source": { "id": "the-verge", "name": "The Verge" },
@@ -6,7 +7,7 @@
       "title": "Apple’s 14- and 16-inch MacBook Pros might not arrive until next March",
       "description": "The M2-equipped 14- and 16-inch MacBook Pros may launch in the first half of March 2023, according to a report from Bloomberg’s Mark Gurman.",
       "url": "https://www.theverge.com/2022/10/30/23430949/apple-new-macbook-pro-14-16-arrive-next-march-rumors-m2",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/3JS4dYNRnpRqBnHguzW6pN5wufA=/0x0:2040x1360/1200x628/filters:focal(1006x731:1007x732)/cdn.vox-cdn.com/uploads/chorus_asset/file/22948092/akrales_211020_4803_0201.jpg",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/10/iPhone-14-hero-01.png?resize=1200%2C628&quality=82&strip=all&ssl=1",
       "publishedAt": "2022-10-30T14:43:31Z",
       "content": "Apples 14- and 16-inch MacBook Pros might not arrive until next March\r\nApples 14- and 16-inch MacBook Pros might not arrive until next March\r\n / We probably wont see the upgraded MacBook Pros this ye… [+1894 chars]"
     },
