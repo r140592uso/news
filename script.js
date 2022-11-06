@@ -68,12 +68,12 @@ function getNews(page) {
           const id = event.target.getAttribute("data-id");
 
           let overlaypublishedAt = document.createElement("h4");
-          overlaypublishedAt.classList.add("newstext");
+          overlaypublishedAt.classList.add("newsdesc");
           overlaypublishedAt.textContent = `${element.publishedAt}`;
           document.getElementById("newscontent").appendChild(overlaypublishedAt);
 
           let overlayauthor = document.createElement("h4");
-          overlayauthor.classList.add("newstext");
+          overlayauthor.classList.add("newsdesc");
           overlayauthor.textContent = `${element.author}`;
           document.getElementById("newscontent").appendChild(overlayauthor);
 
@@ -83,7 +83,7 @@ function getNews(page) {
           document.getElementById("newscontent").appendChild(overlaytitle);
 
           let overlaydescription = document.createElement("h4");
-          overlaydescription.classList.add("newstext");
+          overlaydescription.classList.add("newsdesc");
           overlaydescription.textContent = `${element.description}`;
           document.getElementById("newscontent").appendChild(overlaydescription);
 
