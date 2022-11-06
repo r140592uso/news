@@ -13,10 +13,8 @@ togglebar.addEventListener("click", function () {
 window.onscroll = function () {
   myFunction();
 };
-
 let navbarscroll = document.getElementById("nav-ul");
 let sticky = navbarscroll.offsetTop;
-
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbarscroll.classList.add("sticky");
@@ -61,20 +59,54 @@ function getNews(page) {
         h3.textContent = `${element.title}`;
         h4.textContent = `${element.description}`;
         p.textContent = `${element.content}`;
+
         divnews.setAttribute("data-id", element.id);
 
+        divnews.addEventListener("click", function (event) {
+          document.getElementById("newscontent").innerHTML = " ";
+          console.log(element.id);
+          const id = event.target.getAttribute("data-id");
+
+          let overlaypublishedAt = document.createElement("h4");
+          overlaypublishedAt.classList.add("newstext");
+          overlaypublishedAt.textContent = `${element.publishedAt}`;
+          document.getElementById("newscontent").appendChild(overlaypublishedAt);
+
+          let overlayauthor = document.createElement("h4");
+          overlayauthor.classList.add("newstext");
+          overlayauthor.textContent = `${element.author}`;
+          document.getElementById("newscontent").appendChild(overlayauthor);
+
+          let overlaytitle = document.createElement("h3");
+          overlaytitle.classList.add("newstitle");
+          overlaytitle.textContent = `${element.title}`;
+          document.getElementById("newscontent").appendChild(overlaytitle);
+
+          let overlaydescription = document.createElement("h4");
+          overlaydescription.classList.add("newstext");
+          overlaydescription.textContent = `${element.description}`;
+          document.getElementById("newscontent").appendChild(overlaydescription);
+
+
+          let overlaycontent = document.createElement("h4");
+          overlaycontent.classList.add("newstext");
+          overlaycontent.textContent = `${element.content}`;
+          document.getElementById("newscontent").appendChild(overlaycontent);
+
+          let overlayimage = document.createElement("img");
+          overlayimage.classList.add("newstitle");
+          overlayimage.textContent = `${element.urlToImage}`;
+          document.getElementById("newscontent").appendChild(overlayimage);
+
+
+          newsOverlay.classList.add("activeoverlay");
+        });
         divnews.appendChild(divimg);
         divnews.appendChild(divtext);
         divtext.appendChild(h3);
         divtext.appendChild(h4);
         divtext.appendChild(p);
         fragment.appendChild(divnews);
-
-        divnews.addEventListener("click", function (event) {
-          let id = event.target.getAttribute("data-id");
-          newsOverlay.classList.add("activeoverlay");
-          console.log(id);
-        });
       });
       document.getElementById("news").innerHTML = " ";
       document.getElementById("news").appendChild(fragment);
@@ -87,6 +119,9 @@ function getNews(page) {
       document.getElementById("api").appendChild(p);
     });
 }
+newsClose.addEventListener("click", function () {
+  newsOverlay.classList.remove("activeoverlay");
+});
 document.getElementById("previous").addEventListener("click", function () {
   if (currentPage == 1) {
     return;
@@ -101,6 +136,7 @@ document.getElementById("next").addEventListener("click", function () {
   currentPage += 1;
   getNews(currentPage);
 });
+
 getNews(currentPage);
 
 // "https://newsapi.org/v2/everything?q=apple&from=2022-10-30&to=2022-10-30&sortBy=popularity&apiKey=c0f2c7d2abf7466584810b33703f8bbd"

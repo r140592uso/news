@@ -226,7 +226,7 @@
 }
 .overlay.activeoverlay {
   display: block;
-  z-index: 98;
+  z-index: 102;
 }
 .close {
   position: absolute;
@@ -234,4 +234,5 @@
   right: 10px;
   color: #9e2929;
   font-size: 60px;
+  cursor: pointer;
 }
