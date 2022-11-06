@@ -140,3 +140,119 @@ document.getElementById("next").addEventListener("click", function () {
 getNews(currentPage);
 
 // "https://newsapi.org/v2/everything?q=apple&from=2022-10-30&to=2022-10-30&sortBy=popularity&apiKey=c0f2c7d2abf7466584810b33703f8bbd"
+
+
+
+
+// slider
+let data = [
+  {
+    id: 1,
+    imageUrl: "https://wallpapercave.com/wp/wp2089967.jpg",
+    title: "slide title 1",
+  },
+  {
+    id: 2,
+    imageUrl: "https://wallpapercave.com/wp/wp2089908.jpg",
+    title: "slide title 2",
+  },
+  {
+    id: 3,
+    imageUrl: "https://wallpapercave.com/wp/wp2089896.jpg",
+    title: "slide title 3",
+  },
+  {
+    id: 4,
+    imageUrl: "https://wallpapercave.com/wp/wp2089938.jpg",
+    title: "slide title 4",
+  },
+];
+
+const arrowleft = document.getElementById("arrowleft");
+const arrowright = document.getElementById("arrowright");
+const sliderContent = document.getElementById("slider-content");
+let dotsChildElement = document.getElementsByClassName("child");
+let sliderIndex = 0;
+
+function createDivTag(item) {
+  const divtag = document.createElement("div");
+  divtag.classList.add("slide");
+  return divtag;
+}
+function createImgTag(item) {
+  // const tagImage = document.createElement("img");
+  // tagImage.classList.add("image-slider");
+  // tagImage.setAttribute("src", item.imageUrl);
+  // tagImage.setAttribute("alt", item.title);
+  // return tagImage;
+
+  const bgImage = document.createElement("div");
+  bgImage.style.backgroundImage = `url(${item.imageUrl})`;
+  bgImage.classList.add("bgImagest");
+  return bgImage;
+}
+function createH3Tag(item) {
+  const h3Title = document.createElement("h3");
+  h3Title.innerText = item.title;
+  return h3Title;
+}
+
+function createDots() {
+  const dots = document.createElement("div");
+  dots.classList.add("dots-parent");
+  data.forEach((element) => {
+    const childDots = document.createElement("div");
+    childDots.classList.add("child");
+    childDots.setAttribute("data-id", element.id - 1);
+
+    dots.appendChild(childDots);
+
+    childDots.addEventListener("click", function (event) {
+      let id = event.target.getAttribute("data-id");
+      sliderIndex = id;
+      setSlide();
+    });
+  });
+  return dots;
+}
+function setSlide() {
+  sliderContent.innerHTML = " ";
+  const slideItem = createDivTag(data[sliderIndex]);
+  const imgTag = createImgTag(data[sliderIndex]);
+  const titleSlider = createH3Tag(data[sliderIndex]);
+  const dots = createDots();
+
+  slideItem.appendChild(imgTag);
+  slideItem.appendChild(titleSlider);
+  sliderContent.appendChild(slideItem);
+  sliderContent.appendChild(dots);
+  currentDotActive();
+}
+function currentDotActive() {
+  dotsChildElement[sliderIndex].classList.add("activedot");
+}
+function arrowLeftClick() {
+  if (sliderIndex == 0) {
+    sliderIndex = data.length - 1;
+    setSlide();
+    return;
+  }
+  sliderIndex -= 1;
+  setSlide();
+}
+function arrowRightClick() {
+  if (sliderIndex == data.length - 1) {
+    sliderIndex = 0;
+    setSlide();
+    return;
+  }
+  sliderIndex += 1;
+  setSlide();
+}
+arrowleft.addEventListener("click", arrowLeftClick);
+arrowright.addEventListener("click", arrowRightClick);
+
+setInterval(() => {
+  arrowRightClick();
+}, 5000);
+setSlide();

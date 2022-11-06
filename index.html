@@ -20,7 +20,15 @@
         <div class="logodiv">
           <a class="logobox" href="index.html">Newsroom</a>
         </div>
-        <div class="slider" id="slider"></div>
+        <div class="slider-wrapper">
+          <button class="arrow arrow-left" id="arrowleft">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="arrow arrow-right" id="arrowright">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+          <div class="slider-content" id="slider-content"></div>
+        </div>
       </div>
       <div class="navtogglediv">
         <nav class="navigation" id="navigation">
@@ -78,13 +86,15 @@
     <div class="api" id="api">
       <div class="news" id="news"></div>
       <div class="buttondiv">
-        <button class="previous buttons" id="previous"><i class="fa-solid fa-angles-left"></i></button>
-        <button class="next buttons" id="next"><i class="fa-solid fa-angles-right"></i></button>
+        <button class="previous buttons" id="previous">
+          <i class="fa-solid fa-angles-left"></i>
+        </button>
+        <button class="next buttons" id="next">
+          <i class="fa-solid fa-angles-right"></i>
+        </button>
       </div>
       <div class="overlay" id="overlay">
-        <div class="newscontent" id="newscontent">
-          
-        </div>
+        <div class="newscontent" id="newscontent"></div>
         <div class="close" id="close"><i class="fa-solid fa-xmark"></i></div>
       </div>
     </div>
@@ -92,9 +102,9 @@
   <footer class="footerdiv">
     <div class="tothetop">
       <button onclick="topFunction()" id="myBtn" title="Go to top">
-        <i class="fa-solid fa-angles-up"></i></button>
+        <i class="fa-solid fa-angles-up"></i>
+      </button>
     </div>
-    
   </footer>
   <body>
     <script src="script.js"></script>
